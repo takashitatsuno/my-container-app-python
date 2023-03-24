@@ -21,6 +21,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v0
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: acrhellodjangodemo.azurecr.io
+          acrName: acrhellodjangodemo
           containerAppName: containerappsfilemount
           resourceGroup: rg-In-Vehicle-SensorAI-Platform
